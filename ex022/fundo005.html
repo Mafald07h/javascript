@@ -7,10 +7,23 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(images/wallpaper002.jpg);
             background-position: center center;
             background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /* Shorthand - background 
+
+                color > image > position > repeat > [size] > attachment
+                Nos navegadores, ainda a parte de siz ainda não aceita, por segurança, coloque
+                o background-size fora da shorthand.
+
+            */
+
+            background: black url(images/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
 
@@ -40,7 +53,7 @@
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat sequi enim nesciunt veniam quasi delectus velit. Quisquam officiis libero ipsa. Cupiditate, itaque? Soluta, repellendus qui libero dignissimos magnam labore necessitatibus.
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat sequi enim nesciunt veniam quasi delectus velit. Quisquam officiis libero ipsa. Cupiditate, itaque? Soluta, repellendus qui libero dignissimos magnam labore necessitatibus.
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat sequi enim nesciunt veniam quasi delectus velit. Quisquam officiis libero ipsa. Cupiditate, itaque? Soluta, repellendus qui libero dignissimos magnam labore necessitatibus.
-            
+
         </p>
     </main>
 </body>
